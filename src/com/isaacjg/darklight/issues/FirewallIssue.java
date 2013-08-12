@@ -33,7 +33,7 @@ import com.ijg.darklight.sdk.core.Issue;
 
 public class FirewallIssue extends Issue {
 
-	protected FirewallIssue() {
+	public FirewallIssue() {
 		super("Firewall", "The Windows Firewall has been enabled");
 	}
 
